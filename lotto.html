@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>로또 번호 생성기</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>로또 번호 생성기</h1>
+            <h2>행운의 로또번호를 생성해보세요!</h2>
+        </div>
+        <div class="creat_section">
+            <p>번호 생성</p>
+            <div class="balls">
+                <div class="ball" id="yellow">?</div>
+                <div class="ball" id="blue">?</div>
+                <div class="ball" id="red">?</div>
+                <div class="ball" id="gray">?</div>
+                <div class="ball" id="green">?</div>
+                <div class="ball" id="yellow">?</div>
+            </div>
+            <div class = "btn1">
+                <button class="a" id="create_number_btn">번호 생성하기</button>
+            </div>
+        </div>
+        <hr>
+        <div class="buy_section">
+            <p class="buy_txt">로또 구매하기</p>
+            <p>구매 수량 : <input type="number" id="buy_count" value="1"></p>
+            <p> 총 금액 : 3,000원 (1장당 1,000원)</p>
+            <div class = "btn1">
+                <button id="buy_btn">구매하기</button>
+            </div>
+        </div>
+        <div class="result_section">
+            <p class="result_txt">당첨 결과 확인</p>
+            <div class="result" id="result">
+                <p>이번주 당첨 번호 : <span id="result_number"></span></p>
+                <div class="balls">
+                    <div class="ball" id="yellow">3</div>
+                    <div class="ball" id="blue">14</div>
+                    <div class="ball" id="red">25</div>
+                    <div class="ball" id="gray">33</div>
+                    <div class="ball" id="green">41</div>
+                    <div class="ball" id="yellow">9</div>
+                </div>
+            </div>
+            <div class="my_result_list" id="result">
+                <p>내가 구매한 번호 : <span id="result_number"></span></p>
+                <div class="result">
+                    <div class="balls" id="my_result02">
+                        <div class="ball" id="yellow">7</div>
+                    <div class="ball" id="blue">12</div>
+                    <div class="ball" id="red">25</div>
+                    <div class="ball" id="gray">38</div>
+                    <div class="ball" id="green">42</div>
+                    <div class="ball" id="yellow">9</div>
+                    </div>
+                    <div class="my_result">결과 : 2개 일치</div>
+                </div>
+                <div class="result">
+                    <div class="balls" id="my_result02">
+                        <div class="ball" id="yellow">3</div>
+                        <div class="ball" id="blue">14</div>
+                        <div class="ball" id="red">25</div>
+                        <div class="ball" id="gray">33</div>
+                        <div class="ball" id="green">41</div>
+                        <div class="ball" id="yellow">9</div>
+                    </div>
+                    <div class="my_result">결과 : 6개 일치 - 당첨</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
