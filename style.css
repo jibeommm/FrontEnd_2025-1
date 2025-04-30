@@ -1,36 +1,41 @@
 /* /style.css */
 body {
-    font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 20px;
+    font-weight: 500;
 }
 
 .container {
-max-width: 500px;
-margin: 0 auto;
-background: white;
-padding: 30px;
-border-radius: 12px;
-box-shadow: 0 0 10px rgba(0,0,0,0.1);
+padding: 10vw;
+border-radius: 5vw;
+font-size: 5vw;
 }
 
-input {
-padding: 10px;
+#input {
+padding: 1vw;
+padding-left: 2vw;
 width: 70%;
-font-size: 16px;
-margin-bottom: 10px;
+font-size: 3vw;
+font-weight: 500;
+border-radius: 5vw;
 }
 
-button {
-padding: 10px 20px;
-font-size: 16px;
-cursor: pointer;
+#search_section {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 5vw;
+}
+
+#search_btn {
+padding: 1vw 2vw; 
+margin-left: 2vw;
+font-size: 3vw;
+font-weight: 500;
+border-radius: 5vw;
+border: none;
 }
 
 #result img {
-width: 100px;
-margin-top: 10px;
+width: 50vw;
 }
   
