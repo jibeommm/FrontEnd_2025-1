@@ -2,17 +2,23 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>나라 정보 검색기</title>
+  <title>국가 정보 탐색</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <p>나라 정보 검색기</p>
-    <div id="search_section">
-        <input type="text" id="input" placeholder="나라명 : (예시 : South Korea)">
-        <button id="search_btn" onclick="search()">검색</button>
-    </div>    
-    <div id="result"></div>
+    <p class="title">국가 정보 탐색기</p>
+    <input type="text" id="input" placeholder="나라명 검색 (예: Korea)">
+    <div class="filter_btn">
+      <button class="region-btn" data-region="Africa">아프리카</button>
+      <button class="region-btn" data-region="Americas">아메리카</button>
+      <button class="region-btn" data-region="Asia">아시아</button>
+      <button class="region-btn" data-region="Europe">유럽</button>
+      <button class="region-btn" data-region="Oceania">오세아니아</button>
+    </div>
+    <div class="main">
+      <div id="result" class="country-list"></div>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>

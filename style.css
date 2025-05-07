@@ -1,41 +1,69 @@
-/* /style.css */
 body {
+    width: 80vw;
+    margin: 0 auto;
+  }
+  
+  p {
+    font-size: 2.5vw;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 2vw;
+  }
+  
+  .title {
+    font-size: 10vw;
+    font-weight: 700;
     text-align: center;
-    font-weight: 500;
-}
-
-.container {
-padding: 10vw;
-border-radius: 5vw;
-font-size: 5vw;
-}
-
-#input {
-padding: 1vw;
-padding-left: 2vw;
-width: 70%;
-font-size: 3vw;
-font-weight: 500;
-border-radius: 5vw;
-}
-
-#search_section {
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 5vw;
-}
-
-#search_btn {
-padding: 1vw 2vw; 
-margin-left: 2vw;
-font-size: 3vw;
-font-weight: 500;
-border-radius: 5vw;
-border: none;
-}
-
-#result img {
-width: 50vw;
-}
+  }
+  
+  input {
+    padding: 2vw;
+    width: 75vw;
+    font-size: 3vw;
+  }
+  
+  .filter_btn {
+    display: flex;
+    margin-bottom: 2vw;
+    justify-content: center;
+  }
+  
+  .region-btn.selected {
+    background-color: black;
+    color: white;
+  }
+  
+  .region-btn {
+    padding: 1vw;
+    margin: 1.5vw;
+    font-size: 2.5vw;
+    border-radius: 100vw;
+    border: 1px solid #000000;
+  }
+  
+  .result_card {
+    display: flex;
+    margin-bottom: 2vw;
+    box-shadow: 0 1vw 10vw rgba(0,0,0,0.1);
+    background-color: white;
+    border: solid 1px #000000;
+  }
+  
+  .result_item img {
+    padding-top: 1vw;
+    width: 50vw;
+  }
+  
+  .result_item p {
+    font-size: 3vw;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .result_item_detail {
+    display: none;
+    padding: 2vw;
+    font-size: 2.5vw;
+    text-align: start;
+  }
   
